@@ -1,0 +1,179 @@
+.flex {
+    display: flex;
+}
+
+.align-right {
+    text-align: right;
+}
+.align-left {
+    text-align: left;
+}
+.centered-box {
+    margin-left: auto;
+    margin-right: auto;
+}
+.x-centered-flex {
+    align-items: center;
+    justify-content: center;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.gap {
+    gap: 12px;
+}
+.bold {
+    font-weight: bold;
+}
+.btn-cont {
+    width:300px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid crimson;
+    color: crimson;
+    background-color: #fff;
+}
+
+.btn-custom {
+    padding: 10px;
+    border-radius: 15px;
+    color: purple;
+    border:1px solid purple;
+}
+
+.purple {
+    color: purple;
+}
+
+.c-purple {
+    color: purple;
+}
+
+.b-purple {
+    background-color: purple;
+}
+
+.c-white {
+    color: #fff;
+}
+
+.fff {
+    background-color: #fff;
+}
+
+.item-centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tx10 {
+    font-size: 10px;
+}
+
+.tx11 {
+    font-size: 11px;
+}
+
+.tx12 {
+    font-size: 12px;
+}
+
+.tx13 {
+    font-size: 13px;
+}
+
+.tx15 {
+    font-size: 15px;
+}
+
+.tx20 {
+    font-size: 20px;
+}
+
+/* Display */
+.overflow-hide {
+    overflow: hidden;
+}
+
+.dnone {
+    display: none;
+}
+
+.ct {
+    text-align: center;
+}
+
+/* Elements */
+.work-status {
+    width:180px;
+    height:150px;
+}
+
+.work-tb-img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tb-img {
+    width:120px;
+    height:100px;
+    border-radius:15px;
+    border:1px solid blue;
+}
+
+/* Corners and borders */
+.r-15 {
+    border-radius: 15px;
+}
+
+.r-l20 {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.r-r20 {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.r-l2 {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.work-status-txt {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* mouse */
+.poi:hover {
+    cursor: pointer;
+}
+
+.shadow-1 {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.shadow-2 {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.shadow-3 {
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.shadow-4 {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
